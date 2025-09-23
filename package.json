@@ -1,0 +1,22 @@
+{
+  "name": "random-ideas",
+  "version": "1.0.0",
+  "description": "A collection of insightful ideas from different people",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsniranjan/sparkboard-api.git"
+  },
+  "author": "Niranjan V S",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vsniranjan/sparkboard-api/issues"
+  },
+  "homepage": "https://github.com/vsniranjan/sparkboard-api#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
