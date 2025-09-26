@@ -7,6 +7,10 @@ app.get("/", (req, res) => {
   res.send({ message: "Sparkboard API" });
 });
 
+// Body parser middleware
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+
 const ideasRouter = require("./routes/ideas");
 app.use("/api/ideas", ideasRouter);
 
